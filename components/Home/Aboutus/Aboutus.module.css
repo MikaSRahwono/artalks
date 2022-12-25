@@ -1,0 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+.subjudul_1{
+  font-family: 'Alexandria', sans-serif;
+} */
+
+.lineUp {
+    animation: 2s anim-lineUp ease-out;
+    display: block;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+.fadeOut {
+    animation: 2s anim-lineUp ease-out;
+    animation-direction: reverse;
+    display: none;
+  }
